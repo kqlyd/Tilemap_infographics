@@ -10,7 +10,7 @@ body {
     line-height: 1.5rem;
 
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     width: 100vw;
     height: 100vh;
@@ -25,8 +25,28 @@ svg {
     height: 500px;
 }
 
-.county-0 { fill: #dddddd; }
-.county-1 { fill: #8da0cb; }
+.boxTile {
+    position:absolute;
+    top: 0; /*[wherever you want it]*/
+    left:0; /*[wherever you want it]*/
+    margin: 100px 5px 10px 150px;
+}
+
+.svgLegend {
+    display: block;    
+    width: 220px;
+    height: 60px;
+}
+.boxLegend {
+    position:absolute;
+    top: 0; /*[wherever you want it]*/
+    left:0; /*[wherever you want it]*/
+    /* top right bottom left;*/
+    margin: 40px 5px 10px 150px;
+}
+
+.county-0 { fill: #bbbbbb; }
+.county-1 { fill: #dcdcdb; }
 .county-2 { fill: #a6d854; }
 .county-3 { fill: #e78ac3; }
 .county-4 { fill: #e5c494; }
